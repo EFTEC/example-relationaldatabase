@@ -12,6 +12,7 @@ It is a minimal relational database for MySQL and Sql Server
   * (optional) MANY TO ONE & MANY TO ONE & ONE TO MANY
 * Minimal information. This database has at most 5 rows of data.
 * It has a few nulls
+* All tables have the prefix "**Table**". 
 * All Primary Keys (PKs) are of the type **int** and they have a postfix "**PK**"
   * Some of them are identity.
 * All Foreign Keys (FKs) are of the type **int** and they have a postfix "**FK**"
@@ -56,9 +57,9 @@ The main table is the table **TableParent**. It could be used as the initial tab
 
 [mysql/mysql.sql](mysql/mysql.sql)
 
-Run the next script. It will create the database called testdb
+Run the next script. It will create the database called **testdb**
 
-> This database is compatible with Mysql 8.0 and higher. It could run with Mysql 5.x but it could require to change the encoding.
+> This database is compatible with MySQL 8.0 and higher. It could run with MySQL 5.x but it could require to change the encoding.
 
 ## Sql Server Install
 
